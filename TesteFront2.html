@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Narrow Jumbotron Template for Bootstrap</title>
+    <title>Hotsite</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -25,59 +25,85 @@
 
     <div class="container">
       <div class="header clearfix">
+      <navbar>
         <nav class="navbar navbar-dark bg-dark">
-        <h3 class="text-muted">Project name</h3>
+        <h3 class="text-muted">Hotsite</h3>
           <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item">
-              <a class="nav-link disabled" href="#"><span class="fa fa-id-card fa-2x"></span>  Home</a>
+              <a class="nav-link disabled" href="#"><span class="fa fa-server fa-2x"></span>  Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#"><span class="fa fa-id-card fa-2x"></span>  About</a>
+              <a class="nav-link disabled" href="#conteudo"><span class="fa fa-files-o fa-2x"></span>  Conteudo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#"><span class="fa fa-id-card fa-2x"></span>  Contact</a>
+              <a class="nav-link disabled" href="#palestrante"><span class="fa fa-user-circle fa-2x"></span>  Palestrante</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#contato"><span class="fa fa-commenting-o fa-2x"></span>  Contato</a>
             </li>
           </ul>
         </nav>
+        </navbar>
       </div>
 
 
       <div class="jumbotron">
-        <h1 class="display-3">Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+        <h1 class="display-3">BI Ceará</h1>
+        <p class="lead">O maior evento de BI do Ceará. </p>
+        <p><a class="btn btn-lg btn-info" href="#contato" role="button">Entre em contato</a></p>
       </div>
+      
+      <section id="conteudo">
 
-      <div class="row marketing">
-        <div class="col-lg-6"><span class="fa fa-id-card fa-2x"></span>
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+      <div class="jumbotronxx">
+        <div class="col-lg-6"><span class="fa fa-database fa-2x"></span>
+          <h4>Conteudo</h4>
+          <p>As palestras tem vários temas que envolve Business Inteligence, Big Data,etc.</p>
+        </div>
+        </div>
+      </section>
+
+
+      <section id="tec">
+
+        <div class="jumbotronxx">
+        <div class="col-lg-6"><span class="fa fa-laptop fa-2x"></span>
+          <h4>Tecnologias</h4>
+          <p>Seram abordadas tecnologias atuais como Power BI, Pentaho, etc.</p>
+        </div>
+        </div>
+      </section>
+
+      <section id="local">
+
+        <div class="jumbotronxx">
+        <div class="col-lg-6"><span class="fa fa-chevron-circle-down fa-2x"></span>
+          <h4>Localização</h4>
+          <p>O evento acontecerá no Centro de Eventos do Ceará.</p>
+        </div>
         </div>
 
-        <div class="col-lg-6"><span class="fa fa-id-card fa-2x"></span>
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-        </div>
+        <section id="hora">
 
-        <div class="row marketing">
-        <div class="col-lg-6"><span class="fa fa-id-card fa-2x"></span>
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-        </div>
-
-        <div class="col-lg-6"><span class="fa fa-id-card fa-2x"></span>
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+        <div class="jumbotronxx">
+        <div class="col-lg-6"><span class="fa fa-hourglass-2 fa-2x"></span>
+          <h4>Tempo do Evento</h4>
+          <p>Será realizado durante todo o final de semana das 8h as 18h.</p>
         </div>
       </div>
+      </section>
+
+     <section id="palestrante">
+
       <div>
-      <a class="navbar-brand" href="#"><img src="img/Fulano-de-Tal.png" alt="jumper"><h2>Fulano de Tal</h2></a>
-      <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+      <img src="img/Fulano.png" alt="jumper"><h2>Fulano de Tal</h2></a>
+      <h4>Especialista em Engenharia de Dados</h4>
+          <p>O mais conceituado especialista do Ceará.</p>
       </div>
-</div>
+      </section>
+
        <hr class="featurette-divider">
-      <section id="sobre">
+      <section id="contato">
           <div class="page-header">
               <h1 class="text-center">Contato</h1>
           </div>
@@ -109,9 +135,9 @@
 
       <footer class="text-center">
                             
-        <i class="fa fa-fw fa-facebook fa-2x"></i>
+        <i class="fa fa-fw fa-facebook-official fa-2x"></i>
              <div class="col-lg-12">
-                  Copyright © Jumper 2017
+                  Copyright © Hotsite 2017
              </div> 
                           
       </footer>
